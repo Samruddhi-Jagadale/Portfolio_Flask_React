@@ -1,0 +1,15 @@
+:root[data-theme="dark"] {
+  --bg: #020617;
+  --nav-bg: rgba(2, 6, 23, 0.85);
+  --card-bg: #0f172a;
+  --text: #801d70;
+  --text-muted: #94a3b8;
+}
+
+:root[data-theme="light"] {
+  --bg: #f8fafc;
+  --nav-bg: rgba(255, 255, 255, 0.9);
+  --card-bg: #1b3045;
+  --text: #020617;
+  --text-muted: #475569;
+}
