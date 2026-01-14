@@ -61,6 +61,7 @@ venv\Scripts\activate     # Windows
 # OR for Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 python app.py
+```
 ---
 
 ### 2️⃣ Frontend (React)
@@ -73,6 +74,7 @@ npm start
 Runs on:
 
 http://localhost:3000
+```
 ---
 
 Make sure the backend is running to fetch API data.
@@ -82,6 +84,7 @@ Make sure the backend is running to fetch API data.
 In frontend/package.json, add the proxy:
 ```bash
 "proxy": "http://127.0.0.1:5000"
+```
 
 
 This allows React to make requests to the Flask backend easily.
