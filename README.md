@@ -6,30 +6,34 @@ This is a **full-stack portfolio project** built with **Flask** as the backend a
 
 ## 📂 Project Structure
 
-backend/
-│── app.py
-│── config.py
-│── models.py
-│── extensions.py
-│── routes/
-│     ├── projects.py
-│     ├── research.py
-│     ├── skills.py
-│     ├── certifications.py
-│     └── contact.py
-│── requirements.txt
+**Backend:**
+- `app.py`
+- `config.py`
+- `models.py`
+- `extensions.py`
+- `routes/`
+- `projects.py`
+- `research.py`
+- `skills.py`
+- `certifications.py`
+- `contact.py`
+- `requirements.txt`
 
-frontend/src/
-│── api.js
-│── components/
-│     ├── Hero.jsx
-│     ├── Projects.jsx
-│     ├── Research.jsx
-│     ├── Skills.jsx
-│     ├── Certifications.jsx
-│     ├── Contact.jsx
-│── App.js
 
+	**Frontend:**
+- `src/`
+- `api.js`
+- `components/`
+- `Hero.jsx`
+- `Projects.jsx`
+- `Research.jsx`
+- `Skills.jsx`
+- `Certifications.jsx`
+- `Contact.jsx`
+- `App.js`
+
+
+---
 
 
 
@@ -57,7 +61,7 @@ venv\Scripts\activate     # Windows
 # OR for Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 python app.py
-----
+---
 
 ### 2️⃣ Frontend (React)
 ```bash
@@ -69,7 +73,7 @@ npm start
 Runs on:
 
 http://localhost:3000
-
+---
 
 Make sure the backend is running to fetch API data.
 
